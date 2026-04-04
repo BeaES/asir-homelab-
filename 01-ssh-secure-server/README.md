@@ -1,6 +1,5 @@
 # Secure SSH Server on Ubuntu
 
-## Descripción
 Implementación y securización básica de un servicio SSH en Ubuntu Server para permitir acceso remoto seguro desde un equipo cliente.
 
 ## Objetivos
@@ -53,8 +52,6 @@ Se aplicaron medidas de seguridad sobre el servicio SSH:
 - Apertura controlada del puerto necesario en UFW
 - Cierre del puerto anterior tras validar el nuevo acceso
 
-## Incidencias resueltas
-Se resolvió un problema de conectividad remota causado por la configuración del firewall. Aunque el servicio SSH estaba en ejecución, el puerto requerido no estaba permitido en UFW. Tras corregir la regla, la conexión remota funcionó correctamente.
 
 ## Resultado
 El servidor quedó accesible de forma remota mediante SSH, con una configuración más segura que la predeterminada y con validación funcional desde el equipo cliente.
@@ -68,10 +65,15 @@ El servidor quedó accesible de forma remota mediante SSH, con una configuració
 ## Evidencias
 Las capturas del proceso se encuentran en la carpeta `screenshots/`.
 
+![Servicio SSH activo](screenshots/ssh-status.png)
+![Conexión remota](screenshots/ssh-connection.png)
+![Puerto 2222](screenshots/-p 2222.png)
+
 ## Habilidades demostradas
 - administración básica de Linux
 - configuración de OpenSSH
-- gestión de usuarios
 - uso de firewall con UFW
+- gestión de usuarios
 - troubleshooting de conectividad
 - hardening básico de acceso remoto
+
