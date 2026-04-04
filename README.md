@@ -59,7 +59,7 @@ A partir de los resultados se valoraron los riesgos principales:
 
 ### Conectividad entre máquinas
 
-![Conectividad](imagenes/01-ping.png)
+![Conectividad](iasir-homelab-/magenes/01-ping.png)
 
 ### Escaneo SYN
 
