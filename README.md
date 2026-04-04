@@ -1,32 +1,42 @@
-# 👩‍💻 Beatriz Esteban - ASIR
+# Beatriz Esteban - ASIR
 
-Estudiante de Administración de Sistemas Informáticos en Red (ASIR) con interés en sistemas, redes y seguridad.
+Estudiante de Administración de Sistemas Informáticos en Red (ASIR) con interés en sistemas, redes y soporte IT.
 
-## 🚀 Portfolio
+En este repositorio recopilo algunos de los proyectos y laboratorios que he ido realizando durante mi formación.
 
-### 🔐 Secure SSH Server
+## Proyectos
+
+### Secure SSH Server
+
 Configuración y securización de acceso remoto en Ubuntu Server.
+[Ver proyecto](./01-ssh-secure-server)
 
-📁 [Ver proyecto](./01-ssh-secure-server)
+### Base de datos inmobiliaria
 
----
+Base de datos en MySQL para analizar operaciones de inversión inmobiliaria mediante consultas SQL.
+[Ver proyecto](./02-base-datos-inmobiliaria)
 
-## 🛠️ Tecnologías
+### Red empresarial con VLAN y OSPF
 
-- Linux (Ubuntu Server)
-- OpenSSH
-- UFW (firewall)
-- VirtualBox
-- Redes TCP/IP
+Simulación de red en Cisco Packet Tracer con VLAN, trunking, routing y OSPF.
+[Ver proyecto](./03-redes-vlan-ospf)
 
----
+## Tecnologías trabajadas
 
-## 🎯 Objetivo profesional
+* Linux (Ubuntu Server)
+* OpenSSH
+* UFW
+* MySQL / SQL
+* Cisco Packet Tracer
+* Redes TCP/IP
+* VirtualBox
+* Power BI
 
-Realizar prácticas en el área de sistemas, redes o soporte IT, aplicando conocimientos técnicos y desarrollando experiencia en entornos reales.
+## Objetivo
 
----
+Seguir desarrollando conocimientos en administración de sistemas, redes y soporte IT mediante prácticas y laboratorios orientados a entornos reales.
 
-## 📫 Contacto
+## Contacto
 
-- GitHub: https://github.com/BeaES
+GitHub: https://github.com/BeaES
+LinkedIn: https://www.linkedin.com/in/beatriz-esteban-asir/
