@@ -65,9 +65,12 @@ El servidor quedó accesible de forma remota mediante SSH, con una configuració
 ## Evidencias
 Las capturas del proceso se encuentran en la carpeta `screenshots/`.
 
+### Servicio SSH activo
 ![Servicio SSH activo](screenshots/ssh-status.png)
+### Conexión remota
 ![Conexión remota](screenshots/ssh-connection.png)
-![Puerto 2222](screenshots/-p 2222.png)
+### Acceso por puerto 2222
+![Puerto 2222](screenshots/-p2222.png)
 
 ## Habilidades demostradas
 - administración básica de Linux
