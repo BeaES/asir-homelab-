@@ -1,59 +1,51 @@
-# Beatriz Esteban - ASIR
+# Portfolio ASIR
 
-Repositorio con proyectos y laboratorios realizados durante mi formación en Administración de Sistemas Informáticos en Red (ASIR).
+Repositorio con proyectos prácticos realizados durante mi formación en Administración de Sistemas Informáticos en Red (ASIR).
 
 ## Proyectos
 
-### 01. Secure SSH Server
+### [Auditoría de seguridad con Nmap](./04-auditoria-nmap)
 
-Configuración y securización básica de acceso remoto en Ubuntu Server.
-[Ver proyecto](./01-ssh-secure-server)
+Análisis de puertos y servicios activos en un entorno Linux de laboratorio, con identificación de riesgos y propuesta de medidas de seguridad.
 
-### 02. Base de datos inmobiliaria
+### [Configuración de servidor SSH seguro](./01-ssh-secure-server)
 
-Proyecto de base de datos en MySQL para analizar operaciones de inversión inmobiliaria mediante consultas SQL.
-[Ver proyecto](./02-base-datos-inmobiliaria)
+Implementación de acceso remoto seguro en Ubuntu Server, incluyendo configuración de firewall, cambio de puerto y hardening básico.
 
-### 03. Red empresarial con VLAN y OSPF
+### [Servidor web Apache con HTTPS](./05-servidor-web-corporativo)
+
+Configuración de un servidor web en Ubuntu Server con Apache, Virtual Host, certificado SSL autofirmado y revisión básica de logs.
+
+### [Base de datos inmobiliaria](./02-base-datos-inmobiliaria)
+
+Proyecto de base de datos en MySQL para almacenar y analizar operaciones de inversión inmobiliaria mediante consultas SQL.
+
+### [Red empresarial con VLAN y OSPF](./03-redes-vlan-ospf)
 
 Simulación de una red en Cisco Packet Tracer con VLAN, trunking, routing y OSPF.
-[Ver proyecto](./03-redes-vlan-ospf)
 
-### 04. Auditoría básica de seguridad con Nmap
+## Tecnologías utilizadas
 
-Laboratorio de análisis de puertos y servicios activos en un entorno Linux usando Nmap.
-[Ver proyecto](./04-auditoria-nmap)
-
-### 05. Servidor web corporativo con Apache
-
-Instalación y configuración de un servidor web Apache en Ubuntu Server con HTTPS y certificado autofirmado.
-[Ver proyecto](./05-servidor-web-corporativo)
-
-## Tecnologías trabajadas
-
-* Linux
-* Windows
-* Redes TCP/IP
-* Cisco Packet Tracer
-* Apache
+* Linux (Ubuntu Server)
+* Apache HTTP Server
 * OpenSSH
 * Nmap
-* SQL / MySQL
+* MySQL / SQL
+* Cisco Packet Tracer
 * VirtualBox
-* Power BI
+* Redes TCP/IP
+* UFW
 
 ## Proyecto relacionado
 
-### Dashboard Power BI
+### [Dashboard Power BI](https://github.com/BeaES/Dashboard_inmobiliario)
 
-Análisis de rentabilidad y beneficio de inversiones inmobiliarias mediante Power BI.
-[Ver repositorio](https://github.com/BeaES/Dashboard_inmobiliario)
+Proyecto de análisis de rentabilidad y beneficio de inversiones inmobiliarias en Power BI.
+
+## Sobre mí
+
+Estudiante de ASIR con interés en administración de sistemas, redes y soporte IT. Aporto además experiencia profesional en gestión de proyectos, organización de tareas y resolución de incidencias en entorno empresarial.
 
 ## Objetivo
 
-Seguir practicando administración de sistemas, redes, bases de datos y servicios mediante laboratorios orientados a entornos reales.
-
-## Contacto
-
-GitHub: https://github.com/BeaES
-LinkedIn: [https://www.linkedin.com/in/beatriz-esteban-asir/]
+Seguir desarrollando habilidades técnicas mediante proyectos prácticos y realizar las FCT en el área de sistemas, redes o soporte IT.
