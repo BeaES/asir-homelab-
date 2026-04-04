@@ -59,23 +59,23 @@ A partir de los resultados se valoraron los riesgos principales:
 
 ### Conectividad entre máquinas
 
-![Conectividad](iasir-homelab-/magenes/01-ping.png)
+![Conectividad](01-ping.png)
 
 ### Escaneo SYN
 
-![Escaneo SYN](imagenes/02-escaneo-syn.png)
+![Escaneo SYN](02-escaneo-syn.png)
 
 ### Detección de servicios y versiones
 
-![Servicios y versiones](imagenes/03-servicios-versiones.png)
+![Servicios y versiones](03-servicios-versiones.png)
 
 ### Detección del sistema operativo
 
-![Detección SO](imagenes/04-deteccion-so.png)
+![Detección SO](04-deteccion-so.png)
 
 ### Escaneo completo de puertos
 
-![Escaneo completo](imagenes/05-escaneo-completo.png)
+![Escaneo completo](05-escaneo-completo.png)
 
 ## Tecnologías utilizadas
 
