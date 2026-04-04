@@ -1,10 +1,10 @@
-# 🌐 Red empresarial con VLANs, VLSM y OSPF
+#  Red empresarial con VLANs, VLSM y OSPF
 
 Proyecto de simulación de red en Cisco Packet Tracer que representa una infraestructura empresarial distribuida en dos edificios, con segmentación mediante VLANs y enrutamiento dinámico mediante OSPF.
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Diseñar e implementar una red escalable y segmentada que permita:
 
@@ -15,7 +15,7 @@ Diseñar e implementar una red escalable y segmentada que permita:
 
 ---
 
-## 🧩 Topología
+##  Topología
 
 ![Topología](imagenes/01-topologia.png)
 
@@ -28,7 +28,7 @@ La red está compuesta por:
 
 ---
 
-## 🧱 Segmentación de red
+##  Segmentación de red
 
 Se han configurado las siguientes VLANs en ambos edificios:
 
@@ -40,7 +40,7 @@ Cada VLAN funciona como una red independiente, reduciendo tráfico broadcast y m
 
 ---
 
-## 🔗 Troncales
+##  Troncales
 
 Los switches están conectados mediante enlaces trunk 802.1Q para permitir el tráfico de múltiples VLANs:
 
@@ -48,13 +48,13 @@ Los switches están conectados mediante enlaces trunk 802.1Q para permitir el tr
 
 ---
 
-## 🔀 Enrutamiento entre VLANs
+##  Enrutamiento entre VLANs
 
 Se ha implementado **Router-on-a-Stick** para permitir la comunicación entre VLANs.
 
 ---
 
-## 🌍 Enrutamiento dinámico (OSPF)
+##  Enrutamiento dinámico (OSPF)
 
 Se ha configurado OSPF en los routers para permitir el intercambio automático de rutas:
 
@@ -66,7 +66,7 @@ Se ha configurado OSPF en los routers para permitir el intercambio automático d
 
 ---
 
-## 🧮 Direccionamiento IP
+##  Direccionamiento IP
 
 Se ha utilizado:
 
@@ -77,7 +77,7 @@ Esto permite un uso eficiente de las direcciones IP y escalabilidad de la red.
 
 ---
 
-## 📊 Verificación
+##  Verificación
 
 ### VLANs configuradas
 ![VLAN](imagenes/02-vlan.png)
@@ -94,7 +94,7 @@ Esto permite un uso eficiente de las direcciones IP y escalabilidad de la red.
 
 ---
 
-## 🧰 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - Cisco Packet Tracer
 - VLAN (802.1Q)
@@ -105,18 +105,18 @@ Esto permite un uso eficiente de las direcciones IP y escalabilidad de la red.
 
 ---
 
-## 📁 Archivos
+##  Archivos
 
 - `4.pkt` → simulación completa de la red
 
 ---
 
-## 🚀 Conclusión
+##  Conclusión
 
 Este proyecto simula una red empresarial real, aplicando segmentación, direccionamiento eficiente y enrutamiento dinámico, garantizando conectividad entre diferentes áreas de la organización.
 
 ---
 
-## 👩‍💻 Autor
+##  Autor
 
-Beatriz Esteban – Estudiante de ASIR
+Beatriz Esteban
