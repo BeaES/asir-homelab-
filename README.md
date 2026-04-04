@@ -1,42 +1,88 @@
-# Beatriz Esteban - ASIR
+# Auditoría básica de seguridad con Nmap
 
-Estudiante de Administración de Sistemas Informáticos en Red (ASIR) con interés en sistemas, redes y soporte IT.
-
-En este repositorio recopilo algunos de los proyectos y laboratorios que he ido realizando durante mi formación.
-
-## Proyectos
-
-### Secure SSH Server
-
-Configuración y securización de acceso remoto en Ubuntu Server.
-[Ver proyecto](./01-ssh-secure-server)
-
-### Base de datos inmobiliaria
-
-Base de datos en MySQL para analizar operaciones de inversión inmobiliaria mediante consultas SQL.
-[Ver proyecto](./02-base-datos-inmobiliaria)
-
-### Red empresarial con VLAN y OSPF
-
-Simulación de red en Cisco Packet Tracer con VLAN, trunking, routing y OSPF.
-[Ver proyecto](./03-redes-vlan-ospf)
-
-## Tecnologías trabajadas
-
-* Linux (Ubuntu Server)
-* OpenSSH
-* UFW
-* MySQL / SQL
-* Cisco Packet Tracer
-* Redes TCP/IP
-* VirtualBox
-* Power BI
+Proyecto de laboratorio en Ubuntu para realizar una auditoría básica de seguridad sobre un servidor Linux usando Nmap.
 
 ## Objetivo
 
-Seguir desarrollando conocimientos en administración de sistemas, redes y soporte IT mediante prácticas y laboratorios orientados a entornos reales.
+Identificar servicios activos, puertos abiertos y posibles riesgos de una máquina objetivo en un entorno controlado.
 
-## Contacto
+## Entorno
 
-GitHub: https://github.com/BeaES
-LinkedIn: https://www.linkedin.com/in/beatriz-esteban-asir/
+* Máquina atacante: Ubuntu con Nmap
+* Máquina objetivo: servidor Linux
+* Red: laboratorio virtual en VirtualBox
+
+## Desarrollo
+
+Durante la configuración inicial hubo un problema de conectividad entre las máquinas, ya que las IP estaban asociadas a interfaces distintas. Tras corregir la configuración de red y dejar ambas máquinas en la misma subred, la comunicación fue posible.
+
+A partir de ahí se realizaron varias pruebas con Nmap:
+
+* comprobación de conectividad
+* escaneo SYN
+* detección de servicios y versiones
+* detección del sistema operativo
+* escaneo completo de puertos
+
+## Resultados
+
+Se detectaron tres puertos abiertos en la máquina objetivo:
+
+* 21 → FTP
+* 22 → SSH
+* 80 → HTTP
+
+Los servicios identificados fueron:
+
+* vsftpd
+* OpenSSH
+* Apache HTTP Server
+
+También se identificó que la máquina objetivo ejecutaba Linux.
+
+## Análisis
+
+A partir de los resultados se valoraron los riesgos principales:
+
+* FTP: credenciales en texto plano y acceso no autorizado
+* SSH: fuerza bruta o contraseñas débiles
+* HTTP: exposición de servicios web y posibles vulnerabilidades
+
+## Medidas propuestas
+
+* Deshabilitar servicios innecesarios, especialmente FTP si no se utiliza
+* Configurar firewall para permitir solo los puertos necesarios
+* Mantener el sistema actualizado
+* Reforzar SSH con autenticación segura y restricciones de acceso
+
+## Evidencias
+
+### Conectividad entre máquinas
+
+![Conectividad](screenshots/01-conectividad.png)
+
+### Escaneo SYN
+
+![Escaneo SYN](screenshots/02-escaneo-syn.png)
+
+### Detección de servicios y versiones
+
+![Servicios y versiones](screenshots/03-servicios-versiones.png)
+
+### Detección del sistema operativo
+
+![Detección SO](screenshots/04-deteccion-so.png)
+
+### Escaneo completo de puertos
+
+![Escaneo completo](screenshots/05-escaneo-completo.png)
+
+## Tecnologías utilizadas
+
+* Ubuntu
+* Nmap
+* VirtualBox
+
+## Resultado final
+
+La práctica permitió identificar los servicios expuestos en el servidor y plantear medidas básicas para reducir la superficie de ataque y mejorar la seguridad del sistema.
