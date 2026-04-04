@@ -1,16 +1,16 @@
-# 🗄️ Base de datos inmobiliaria
+#  Base de datos inmobiliaria
 
-Proyecto de diseño y explotación de una base de datos en MySQL para el análisis de inversiones inmobiliarias.
-
----
-
-## 🎯 Objetivo
-
-Modelar una base de datos que permita almacenar y analizar operaciones inmobiliarias, incluyendo costes, beneficios y rentabilidad.
+Proyecto de base de datos en MySQL para guardar y analizar operaciones de inversión inmobiliaria.
 
 ---
 
-## 🧩 Estructura
+##  Objetivo
+
+Diseñar una base de datos sencilla que permita almacenar datos de operaciones inmobiliarias y hacer consultas sobre beneficio, rentabilidad y tiempo de operación.
+
+---
+
+##  Estructura
 
 Se ha creado una base de datos llamada `inmobiliaria` con una tabla principal:
 
@@ -26,7 +26,7 @@ Se ha creado una base de datos llamada `inmobiliaria` con una tabla principal:
 
 ---
 
-## ⚙️ Funcionalidades implementadas
+##  Funcionalidades implementadas
 
 - Creación de base de datos y tabla
 - Inserción de datos
@@ -38,7 +38,7 @@ Se ha creado una base de datos llamada `inmobiliaria` con una tabla principal:
 
 ---
 
-## 📊 Ejemplos de resultados
+##  Ejemplos de resultados
 
 ### Beneficio por inmueble
 ![Beneficio](imagenes/04-beneficio-por-inmueble.png)
@@ -54,25 +54,25 @@ Se ha creado una base de datos llamada `inmobiliaria` con una tabla principal:
 
 ---
 
-## 🧰 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - MySQL / MariaDB
 - SQL
 
 ---
 
-## 📁 Archivos
+##  Archivos
 
 - `base-datos-inmobiliaria.sql` → script completo del proyecto
 
 ---
 
-## 🚀 Conclusión
+##  Conclusión
 
 Este proyecto permite analizar la rentabilidad de distintas inversiones inmobiliarias y comparar su rendimiento teniendo en cuenta el tiempo de operación.
 
 ---
 
-## 👩‍💻 Autor
+##  Autor
 
-Beatriz Esteban – Estudiante de ASIR
+Beatriz Esteban 
