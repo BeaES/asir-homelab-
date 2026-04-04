@@ -88,9 +88,9 @@ Esto permite un uso eficiente de las direcciones IP y escalabilidad de la red.
 ### Conectividad (ping)
 ![Ping](imagenes/06-ping.png)
 
-✔️ Comunicación entre VLANs  
-✔️ Comunicación entre edificios  
-✔️ Enrutamiento funcional  
+### Comunicación entre VLANs  
+### Comunicación entre edificios  
+### Enrutamiento funcional  
 
 ---
 
